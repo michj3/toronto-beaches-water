@@ -30,4 +30,4 @@ raw_beach_water_data <- filter(datastore_resources, row_number()==1) %>% get_res
 raw_beach_water_data
 
 #### Save data ####
-write_csv(raw_beach_water_data, "inputs/data/raw_beach_water_data.csv")
+write.csv(raw_beach_water_data, "toronto-beaches-water/input/data/raw_beach_water_data.csv")
