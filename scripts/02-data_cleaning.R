@@ -43,7 +43,7 @@ beach_water_cleaned_data <- beach_water_cleaned_data |>
          "Beach Name" = "beachName",
          "Site Location" = "siteName",
          "Collection Date" = "collectionDate",
-         "E. Coli Levels (# colonies/ 100mL)" = "eColi")
+         "E. Coli Levels (# colonies/100mL)" = "eColi")
 
 # save cleaned data
 write_csv(beach_water_cleaned_data, "toronto-beaches-water/input/data/
