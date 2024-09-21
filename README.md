@@ -6,6 +6,8 @@
 The repository is structured as follows:
 
 -   `input/data` contains the raw dataset and the cleaned analysis dataset used in this paper.
+-   `llm` contains LLM usage notes
+-   `sketches` contains the rough sketches made to visualize the types of plots of interest. 
 -   `paper` contains the files used to generate the paper. This includes the Quarto documen, reference bibliography file, and the PDF of the paper. 
 -   `scripts` contains the R scripts that were used to simulate, download, clean, and test the data.
 
