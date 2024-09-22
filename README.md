@@ -14,9 +14,9 @@ The repository is structured as follows:
 ## How to Run
 
 - Run `scripts/00-simulate_data.R` to simulate envisioned data
-- Run scripts/01-download_data.R to download raw data from opendatatoronto
-- Run scripts/02-data_cleaning.R to generate cleaned data
-- Render outputs/paper/paper.qmd to generate the PDF of the paper
+- Run `scripts/01-download_data.R` to download raw data from opendatatoronto
+- Run `scripts/02-data_cleaning.R` to generate cleaned data
+- Render `outputs/paper/paper.qmd` to generate the PDF of the paper
 
 
 ## Notes: 
