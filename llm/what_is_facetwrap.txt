@@ -1,0 +1,19 @@
+how to separate a graph by 2 different beaches? what function is it
+
+2/2
+
+ChatGPT said:
+ChatGPT
+To separate a graph by two different beaches, you can use faceting in ggplot2. The function used for this is either facet_wrap() or facet_grid(). These functions split the graph into multiple panels based on a variable—in your case, the beach name.
+
+Here's how you can create a graph for two beaches, separated into different panels:
+
+
+# add facet_wrap()
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  # Rotate x-axis labels
+  facet_wrap(~ `Beach Name`)  # This separates the graph by each beach
+
+  
+Explanation:
+facet_wrap(~ Beach Name): This tells ggplot2 to create separate panels for each unique value in the Beach Name column.
+The rest of the code remains similar to what you had for creating a bar chart, with facet_wrap() splitting the plot by beach name.
