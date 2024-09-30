@@ -24,5 +24,5 @@ The repository is structured as follows:
 My main workflow and structure of the Github is based on the notes in Rohan Alexander's book, available at https://github.com/RohanAlexander/starter_folder and https://tellingstorieswithdata.com/
 
 ### LLM Usage Disclosure: 
-Aspects of my R code and paper were assisted with the help of Chat-GPT. The chat history is available in `llms`
+Aspects of my R code and paper were assisted with the help of Chat-GPT. The chat history is available in `llm`
 
